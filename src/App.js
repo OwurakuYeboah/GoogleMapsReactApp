@@ -55,12 +55,12 @@ export class MapContainer extends Component {
           </div>
         </InfoWindow>
       </Map>
-	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=env.GOOGLE_API_KEY&callback=initMap"
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key={env.GOOGLE_API_KEY}&callback=initMap"
   type="text/javascript"></script></div>
     );
   }
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'env.GOOGLE_API_KEY'
+  apiKey: '{env.GOOGLE_API_KEY}'
 })(MapContainer);
