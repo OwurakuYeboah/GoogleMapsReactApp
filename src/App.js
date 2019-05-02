@@ -9,7 +9,7 @@ const mapStyles = {
 export class MapContainer extends Component {
   render() {
     return (
-      <Map
+      <div><Map
         google={this.props.google}
         zoom={14}
         style={mapStyles}
@@ -18,8 +18,8 @@ export class MapContainer extends Component {
          lng: 36.8233
         }}
       />
-	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-  type="text/javascript"></script>
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDygGwTT_ShpZTg2mTWJ5EF2LBsK2B7AZA&callback=initMap"
+  type="text/javascript"></script></div>
     );
   }
 }
