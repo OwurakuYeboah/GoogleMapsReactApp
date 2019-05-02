@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDygGwTT_ShpZTg2mTWJ5EF2LBsK2B7AZA&callback=initMap"
-  type="text/javascript"></script>
+async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDygGwTT_ShpZTg2mTWJ5EF2LBsK2B7AZA&callback=initMap";
 
 const mapStyles = {
   width: '100%',
