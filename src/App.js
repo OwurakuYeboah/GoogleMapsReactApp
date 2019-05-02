@@ -31,3 +31,5 @@ class SimpleMap extends Component {
     );
   }
 }
+
+export default SimpleMap;
